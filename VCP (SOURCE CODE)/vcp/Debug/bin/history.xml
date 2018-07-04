@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=vcp.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\vcp -TD:\CoIDE\configuration\ProgramData\vcp/arm-gcc-link.ld -g">
+      <target file="vcp.elf" lastModified="1643a5b6ce4">
+         <source file="..\obj\usb_core.o" lastModified="1643a31dc00"/>
+         <source file="..\obj\usbd_usr.o" lastModified="1643a31dd03"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1643a31dda8"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1643a31de00"/>
+         <source file="..\obj\usbd_core.o" lastModified="1643a31dea8"/>
+         <source file="..\obj\main.o" lastModified="1643a5b6aca"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1643a31e25d"/>
+         <source file="..\obj\usbd_desc.o" lastModified="1643a31e522"/>
+         <source file="..\obj\tm_stm32f4_usb_vcp.o" lastModified="1643a31e674"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1643a31e6f8"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="1643a31e793"/>
+         <source file="..\obj\usbd_cdc_vcp.o" lastModified="1643a31e8ba"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1643a31e92b"/>
+         <source file="..\obj\syscalls.o" lastModified="1643a31e9ae"/>
+         <source file="..\obj\usb_bsp.o" lastModified="1643a31ea5c"/>
+         <source file="..\obj\usbd_req.o" lastModified="1643a31eb45"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="1643a31ec1c"/>
+         <source file="..\obj\usbd_cdc_core.o" lastModified="1643a31ed1c"/>
+         <source file="..\obj\F4DiscoBoard.o" lastModified="1643a31ed86"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1643a31edf7"/>
+         <source file="..\obj\misc.o" lastModified="1643a31ee63"/>
+         <source file="..\obj\usb_dcd.o" lastModified="1643a31ef26"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="1643a31efd7"/>
+      </target>
+   </processor>
+</history>

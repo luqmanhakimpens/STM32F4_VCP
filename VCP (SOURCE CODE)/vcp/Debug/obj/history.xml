@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\TUTOR\VCP_flash -I..\..\..\..\TUTOR\VCP\source\cmsis_lib\include -I..\..\..\..\TUTOR\VCP\source\cmsis_lib -I..\..\..\..\TUTOR\VCP\source\cmsis_boot -I..\..\..\..\TUTOR\VCP\source -I..\..\..\..\TUTOR\VCP\tm_stm32f4_usb_vcp -I..\..\..\..\TUTOR\VCP_flash\source -I..\..\..\..\TUTOR\VCP\source\cmsis -I..\..\..\..\TUTOR\VCP -I..\..\..\..\TUTOR -I..\..\..\..\TUTOR\VCP\tm_stm32f4_usb_vcp\usb_cdc_device -I..\..\..\..\TUTOR\VCP_flash\source\F4DiscoBoard">
+      <target file="stm32f4xx_exti.o" lastModified="1643a31edf7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="162aa1b1b70"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1643a31e6f8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="162aa1b3ab0"/>
+      </target>
+      <target file="usbd_core.o" lastModified="1643a31dea8">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_core.c" lastModified="1483b76ea10"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="1643a31e793">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="164351d9fd1"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="1643a31e522">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_desc.c" lastModified="148501db020"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="1643a31ed1c">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_cdc_core.c" lastModified="14bf50f9c80"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="1643a31e8ba">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_cdc_vcp.c" lastModified="14bf50a3d80"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="1643a31efd7">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_ioreq.c" lastModified="1483b76ea10"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1643a31de00">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="162aa1adcf0"/>
+      </target>
+      <target file="tm_stm32f4_usb_vcp.o" lastModified="1643a31e674">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\tm_stm32f4_usb_vcp.c" lastModified="14e2e397ba0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1643a31e92b">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="162aa1c9270"/>
+      </target>
+      <target file="F4DiscoBoard.o" lastModified="1643a31ed86">
+         <source file="..\..\..\..\..\VCP_flash\source\F4DiscoBoard\F4DiscoBoard.c" lastModified="16354216ae3"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="1643a31ea5c">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usb_bsp.c" lastModified="162aa204b90"/>
+      </target>
+      <target file="misc.o" lastModified="1643a31ee63">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="162aa1b9870"/>
+      </target>
+      <target file="usbd_req.o" lastModified="1643a31eb45">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_req.c" lastModified="1483b76ea10"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="1643a31ef26">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usb_dcd.c" lastModified="1483b76ea10"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="1643a31ec1c">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usb_dcd_int.c" lastModified="1483b76ea10"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1643a31e25d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="162aa1b1b70"/>
+      </target>
+      <target file="usb_core.o" lastModified="1643a31dc00">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usb_core.c" lastModified="1483b76ea10"/>
+      </target>
+      <target file="syscalls.o" lastModified="1643a31e9ae">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="162aa1afc30"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="1643a31dd03">
+         <source file="..\..\..\..\tm_stm32f4_usb_vcp\usb_cdc_device\usbd_usr.c" lastModified="14bf4bf59a0"/>
+      </target>
+      <target file="main.o" lastModified="1643a5b6aca">
+         <source file="..\..\..\main.c" lastModified="1643a5b6564"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1643a31dda8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="162ba3cedd0"/>
+      </target>
+   </processor>
+</history>
